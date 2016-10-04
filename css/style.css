@@ -79,6 +79,18 @@ header {
   text-align: right;
 }
 
+nav a {
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hamburgerMenu svg {
+  width: 40px;
+  fill: #000;
+}
+
 hr {
   margin:10px 0;
 }
