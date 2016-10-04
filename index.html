@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davide Bonifacio - Front-End Shaolin</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <header class="container">
+      <div class="header_logo">
+        <img class="logo_vector" src="img/db_logo.svg" alt="davide bonifacio personal logo">
+      </div>
+      <div class="header_title">
+        <h1>Davide Bonifacio</h1>
+        <h4>Front-End Shaolin</h4>
+      </div>
+    </header>
+    <hr>
+    <main>
+      <section class="showcase">
+        <picture>
+          <source media="(max-width: 499px)" srcset="img/editing_mobile_1x.jpg, img/editing_mobile_2x.jpg 2x" />
+          <source media="(max-width: 798px) and (min-width: 500px)" srcset="img/editing_tablet_1x.jpg, img/editing_tablet_2x.jpg 2x" />
+          <source media="(min-width: 799px)" srcset="img/editing_desktop_1x.jpg, img/editing_desktop_2x.jpg 2x" />
+          <img src="img/editing_desktop_1x.jpg" alt="image about my projects">
+        </picture>
+      </section>
+      <section class="container">
+        <div class="row">
+          <h2>Featured Work</h2>
+        </div>
+        <article>
+          <a href="#">
+            <picture>
+              <source media="(max-width: 320px)" srcset="img/tech_small.jpg, img/tech_medium.jpg 2x" />
+              <source media="(max-width: 798px) and (min-width: 321px)" srcset="img/tech_large.jpg, img/tech_extra_large.jpg 2x" />
+              <source media="(min-width: 799px)" srcset="img/tech_small.jpg, img/tech_medium.jpg 2x" />
+              <img src="img/tech_small.jpg" alt="technology">
+            </picture>
+            <h3>Technology</h3>
+            <p>My job, my career</p>
+          </a>
+        </article>
+        <article>
+          <a href="#">
+            <picture>
+              <source media="(max-width: 320px)" srcset="img/photography_small.jpg, img/photography_medium.jpg 2x" />
+              <source media="(max-width: 798px) and (min-width: 321px)" srcset="img/photography_large.jpg, img/photography_extra_large.jpg 2x" />
+              <source media="(min-width: 799px)" srcset="img/photography_small.jpg, img/photography_medium.jpg 2x" />
+              <img src="img/photography_small.jpg" alt="photography">
+            </picture>
+            <h3>Photography</h3>
+            <p>My passion, my travels</p>
+          </a>
+        </article>
+        <article>
+          <a href="#">
+            <picture>
+              <source media="(max-width: 320px)" srcset="img/bio_small.jpg, img/bio_medium.jpg 2x" />
+              <source media="(max-width: 798px) and (min-width: 321px)" srcset="img/bio_large.jpg, img/bio_extra_large.jpg 2x" />
+              <source media="(min-width: 799px)" srcset="img/bio_small.jpg, img/bio_medium.jpg 2x" />
+              <img src="img/bio_small.jpg" alt="biograhy">
+            </picture>
+            <h3>Biography</h3>
+            <p>Everything else about me</p>
+          </a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
