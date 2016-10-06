@@ -2,7 +2,7 @@
 
 This is a simple website with fully responsive features. Created at first as a project for Udacity Front End Web Developer NanoDegree course, I decided to implement some other features.
 
-## Online versio
+## Online version
 
 You can see the online version here [https://wildboni.github.io/portfolio/index.html](https://wildboni.github.io/portfolio/index.html)
 
